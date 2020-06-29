@@ -1,4 +1,7 @@
 .lang$init.R <- list(
+    plain = list(
+        error_rpgm.setLang = "(init.R) Aucune langue n'a pu être chargée."
+    ),
     gui.updateLang = list(
         error = "(gui.updateLang) Il n'y a pas de liste nommée .lang$%s"
     )
