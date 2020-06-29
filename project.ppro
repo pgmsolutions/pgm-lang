@@ -1,0 +1,22 @@
+{
+	"start": "main.pseq",
+	"name": "RPGM Localization",
+	"company": "PGM Solutions",
+	"description": "Localization of RPGM Applications",
+	"wd": "program",
+	"logo": "",
+	"css": "",
+	"list": "hide",
+	"rconsole": "r",
+	"outputfolder": "{{name}}_{{datetime}}",
+	"history": [
+		{
+			"date": "29/06/2020",
+			"version": "0.1",
+			"author": "PGM Solutions",
+			"changelog": "First version"
+		}
+	],
+	"created": "2020-06-29T13:26:52+02:00",
+	"version": "3.1.2"
+}

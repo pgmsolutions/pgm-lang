@@ -1,0 +1,43 @@
+{
+	"steps": [
+		{
+			"id": "start",
+			"name": "Start",
+			"type": "start",
+			"x": 200,
+			"y": 70,
+			"uuid": 1,
+			"target": 2
+		},
+		{
+			"uuid": 2,
+			"file": "lang\\init.R",
+			"id": "init.R",
+			"name": "init.R",
+			"type": "rscript",
+			"x": 200,
+			"y": 150,
+			"target": 3
+		},
+		{
+			"uuid": 3,
+			"file": "example.pgui",
+			"id": "example",
+			"name": "example",
+			"type": "gui",
+			"x": 200,
+			"y": 240,
+			"target": 4
+		},
+		{
+			"x": 200,
+			"y": 340,
+			"uuid": 4,
+			"file": "",
+			"id": "",
+			"name": "",
+			"target": "",
+			"type": "end"
+		}
+	]
+}

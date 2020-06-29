@@ -1,0 +1,69 @@
+{
+	"elements": [
+		{
+			"id": "title",
+			"type": "label",
+			"data": {
+				"value": "Localisation of an RPGM Application",
+				"isr": false,
+				"css": "",
+				"margintop": "10",
+				"labeltext": "",
+				"labelposition": "left",
+				"helptext": "",
+				"helpposition": "bottom",
+				"fontsize": "32",
+				"fontfamily": "default",
+				"fontcolor": "#000000"
+			}
+		},
+		{
+			"id": "description",
+			"type": "label",
+			"data": {
+				"value": ".lang$example$description$value",
+				"isr": false,
+				"css": "",
+				"margintop": "25",
+				"labeltext": "",
+				"labelposition": "left",
+				"helptext": "",
+				"helpposition": "bottom",
+				"fontsize": "14",
+				"fontfamily": "default",
+				"fontcolor": "#000000"
+			}
+		},
+		{
+			"id": "lang",
+			"type": "select",
+			"data": {
+				"subtype": "select",
+				"value": "",
+				"isr": false,
+				"css": "",
+				"margintop": "10",
+				"labeltext": "Language:",
+				"labelposition": "left",
+				"helptext": "When you select the language here, it updates the language of the whole gui.",
+				"helpposition": "bottom",
+				"required": false,
+				"onchange": "gui.updateLang(\"example\")",
+				"condition": "",
+				"choices": [
+					{
+						"value": "English",
+						"text": "English"
+					},
+					{
+						"value": "French",
+						"text": "Français"
+					}
+				],
+				"choicesvalues": "",
+				"choicestexts": ""
+			}
+		}
+	],
+	"submitbutton": true
+}
